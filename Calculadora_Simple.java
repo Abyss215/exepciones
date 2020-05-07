@@ -41,10 +41,7 @@ public class Calculadora_Simple
                 else if(o.equals("-")){ope=ope-resolver(arr[i]);}
             }
             return ope;
-        /*}catch(Exception e){
-            System.out.println("ingrese una operacion valida");
-            return 0;
-        }*/
+        
     }
     
 }
