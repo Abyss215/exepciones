@@ -32,7 +32,7 @@ public class Calculadora_Simple
     }
     //resolvera la operacion con el valor ya separado y el operador encontrado
     private static double operacion(String[] arr,String o){
-        //try{
+        
             double ope=resolver(arr[0]);
             for(int i=1;i<(arr.length);i++){
                 if(o.equals("*")){ope=ope*resolver(arr[i]);}
